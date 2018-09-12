@@ -12,7 +12,7 @@ function inserted (el) {
     ctx.lineCap = 'round';
     ctx.lineWidth = 5;
 
-    const pusher = new Pusher ( 'c3a8af7195a57d220a32', {
+    const pusher = new Pusher ( 'YOUR_PUSHER_APP_KEY', {
         cluster: 'eu',
     });
 
